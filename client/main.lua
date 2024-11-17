@@ -44,7 +44,7 @@ Citizen.CreateThread(function ()
     end
 end)
 
-local directions = {"N", "NE", "E", "SE", "S", "SW", "W", "NW", "N"}
+local directions = {"N", "NW", "W", "SW", "S", "SE", "E", "NE", "N"}
 
 function Main(heading)
     local index = math.floor(((heading % 360) + 22.5) / 45) + 1
